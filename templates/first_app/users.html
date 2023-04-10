@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Users</title>
+        <link rel="stylesheet" href="{% static 'css/mystyle.css'%}"/>
+    </head>
+    <body>
+    <h1> Hello this is users.html</h1>
+    <div class="djangothree">
+        {% if users %}
+            <ol>
+                {% for user in users %}
+                    <li>User Info</li>
+                        <ul>
+                            <li>First Name: {{ user.first_name }}</li>
+                            <li>Last Name: {{ user.last_name }}</li>
+                            <li>Email: {{ user.email }}</li>
+                        </ul>
+                {% endfor %}
+            </ol>
+        {% else %}
+            <p> NO USERS FOUND!</p>
+        {% endif %}
+    </div>
+
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "first_app/base.html"%}
+{% load static %}
+    {% block body_block %}
+        <div class="container">
+            <div class="jumbotron">
+                <h1> Hello this is new_users.html</h1>
+                <h2>Sing up here!</h2>
+                <form method="post">
+                    {{ form.as_p}}
+                    {% csrf_token %}
+                    <input type="submit" class="btn btn-primary" value="Submit">
+                </form>
+            </div>
+        </div>
+    {% endblock %}
