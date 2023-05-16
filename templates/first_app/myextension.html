@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-{% extends "first_app/base.html"%}
-{% load static %}
-    {% block body_block %}
-        <h1> Hello this is myextension.html</h1>
-        <h2> That's pic from Django Movie</h2>
-        {{insert_me}}
-        <img src="{% static 'images/django.jpg' %}" alt="This should be Django pic">
-    {% endblock %}

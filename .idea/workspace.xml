@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/django_website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/templatetags/my_extras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/populate_first_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/mystyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/django.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/formpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/mtv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/myextension.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/new_user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/relative.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/first_app/users.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Pt7rMFu1bk8y2fbzobNDZR3jhU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="" />
+      <created>1684264721481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684264721481</updated>
+    </task>
+    <servers />
+  </component>
+</project>
