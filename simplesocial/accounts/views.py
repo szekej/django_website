@@ -9,9 +9,3 @@ class SignUp(CreateView):
     form_class = UserSignUpForm
     success_url = reverse_lazy('login')  # Przekierowanie po udanej rejestracji
     template_name = 'accounts/signup.html'
-
-class SignUpView(FormView):
-
-    def form_valid(self, form):
-        form.save()  # Zapisanie nowego użytkownika
-        return super().form_valid(form)
