@@ -1,7 +1,5 @@
 from django.views.generic import TemplateView, ListView, DetailView, CreateView, UpdateView, DeleteView
-from django.shortcuts import render
 from django.urls import reverse_lazy
-from . import forms
 from .forms import UserSignUpForm
 
 
