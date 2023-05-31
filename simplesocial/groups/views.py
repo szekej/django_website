@@ -17,5 +17,5 @@ class SingleGroup(DetailView):
     model = Group
 
 
-class ListView(ListView):
+class ListGroup(ListView):
     model = Group
