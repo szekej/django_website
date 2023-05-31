@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="views and templates for groups app">
+    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="register views, do some urls magic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/groups/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/groups/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/groups/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685388352312</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="register views, do some urls magic">
+      <created>1685554789183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685554789183</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +144,7 @@
     <MESSAGE value="new apps - groups &amp; posts and their conf files" />
     <MESSAGE value="posts &amp; groups models" />
     <MESSAGE value="views and templates for groups app" />
-    <option name="LAST_COMMIT_MESSAGE" value="views and templates for groups app" />
+    <MESSAGE value="register views, do some urls magic" />
+    <option name="LAST_COMMIT_MESSAGE" value="register views, do some urls magic" />
   </component>
 </project>
