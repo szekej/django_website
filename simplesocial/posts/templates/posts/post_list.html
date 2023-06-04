@@ -1,7 +1,7 @@
 {% extends "posts/post_base.html" %}
 {% block prepost %}
 <div class="col-md-4">
-    {% request.user.is_authenticated %}
+    {% if request.user.is_authenticated %}
         <div class="card card-with-shadow">
             <div class="content">
                 <h5 class="title">Your Groups</h5>

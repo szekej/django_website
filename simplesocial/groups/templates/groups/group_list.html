@@ -2,7 +2,7 @@
 {% block precontent %}
 <div class="col-md-4">
     <div class="content">
-        {% user.is_authenticated %}
+        {% if user.is_authenticated %}
             <h2>Welcome back!
                 <a href="{% url 'posts:for_user' username=user.username %}"><!-- w urls.py apki posts tworzymy path z name=for_user -->
                     @{{ user.username }}
@@ -11,7 +11,7 @@
         {% endif %}
         <h2> Groups</h2>
         <p>Welcome to the groups page!</p>
-        {% user.is_authenticated %}
+        {% if user.is_authenticated %}
             <a href="{% url 'groups:create' %}" class="btn btn-md btn-fill btn-warning"><!-- w urls.py apki groups tworzymy path z name=create -->
                 <span class="glyphicon glyphicon-plus-sign">
                     Create new Group

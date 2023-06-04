@@ -11,10 +11,10 @@ register = template.Library()
 
 
 class Group(models.Model):
-    name = models.CharField(max_length=255, unique=True, on_delete=models.CASCADE)
-    slug = models.SlugField(allow_unicode=True, unique=True, on_delete=models.CASCADE)
-    description = models.TextField(blank=True, default='', on_delete=models.CASCADE)
-    description_html = models.TextField(blank=True, default='', editable=False, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255, unique=True)
+    slug = models.SlugField(allow_unicode=True, unique=True)
+    description = models.TextField(blank=True, default='')
+    description_html = models.TextField(blank=True, default='', editable=False)
     members = models.ManyToManyField(User, through='GroupMember')
 
     def __str__(self):
