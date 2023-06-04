@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="register views, do some urls magic once again but for posts">
+    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="some post html templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/user_post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/user_post_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685559025058</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="some post html templates">
+      <created>1685645573277</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685645573277</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +166,7 @@
     <MESSAGE value="views and templates for groups app" />
     <MESSAGE value="register views, do some urls magic" />
     <MESSAGE value="register views, do some urls magic once again but for posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="register views, do some urls magic once again but for posts" />
+    <MESSAGE value="some post html templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="some post html templates" />
   </component>
 </project>
