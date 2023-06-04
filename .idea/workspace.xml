@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="additional groups views to join/leave group">
+    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="fixes after debugging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/accounts/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/accounts/migrations/0002_rename_user_myuser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/accounts/migrations/0003_rename_myuser_user.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/groups/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/groups/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/groups/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/simplesocial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/simplesocial/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/simplesocial/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/simplesocial/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/templates/thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/templates/thanks.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685877059345</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixes after debugging">
+      <created>1685886981696</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685886981697</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixes after debugging">
+      <created>1685889024266</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685889024266</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +212,7 @@
     <MESSAGE value="register views, do some urls magic once again but for posts" />
     <MESSAGE value="some post html templates" />
     <MESSAGE value="additional groups views to join/leave group" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional groups views to join/leave group" />
+    <MESSAGE value="fixes after debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes after debugging" />
   </component>
 </project>

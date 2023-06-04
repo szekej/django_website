@@ -48,6 +48,7 @@ class PostDetail(SelectRelatedMixin, generic.DetailView):
 
 class CreatePost(LoginRequiredMixin, SelectRelatedMixin, generic.CreateView):
     model = Post
+    template_name = 'posts/post_form.html'
     fields = ('message', 'group')
 
     def form_valid(self, form):

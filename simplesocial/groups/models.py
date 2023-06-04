@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse_lazy
 from django.utils.text import slugify
 import misaka
 from django.contrib.auth import get_user_model
@@ -26,7 +27,7 @@ class Group(models.Model):
         super().save(*args, **kwargs)
 
     def get_absolute_url(self):
-        return reverse('groups:single', kwargs={'slug': self.slug})
+        return reverse_lazy('groups:single', kwargs={'slug': self.slug})
 
     class Meta:
         ordering = ['name']
