@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.views import generic
-from django.http import Http404
+from django.http import Http404, HttpResponseRedirect
 from braces.views import SelectRelatedMixin
 from .models import Post
 from django.contrib import messages
@@ -48,14 +48,13 @@ class PostDetail(SelectRelatedMixin, generic.DetailView):
 
 class CreatePost(LoginRequiredMixin, SelectRelatedMixin, generic.CreateView):
     model = Post
-    template_name = 'posts/post_form.html'
     fields = ('message', 'group')
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
         self.object.user = self.request.user
         self.object.save()
-        return super().form_valid(form)
+        return HttpResponseRedirect(self.object.get_absolute_url())
 
 
 class DeletePost(LoginRequiredMixin, SelectRelatedMixin, generic.DeleteView):
