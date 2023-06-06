@@ -1,5 +1,5 @@
 {% extends "groups/group_base.html" %}
-{% block precontent %}
+{% block pregroup %}
 <h1>Hej</h1>
 <div class="col-md-4">
     <div class="content">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-md-4">
                             <span class="badge">{{ group.posts.count }}</span>
-                            member {{ group.posts.count|pluralize }}
+                            posts {{ group.posts.count|length }}
                         </div>
                     </div>
                 </div>

@@ -23,10 +23,10 @@
 
 {% block content_group %}
 <div class="col-md-8">
-    {% if group.posts.count == 0 %}
+    {% if group.post.count == 0 %}
         <h2> No posts in this {{ group.name }}</h2>
     {% else %}
-        {% for post in group.posts.all %}
+        {% for post in group.post.all %}
             {% include "posts/_post.html" %} # <!--inject "_post.html"-->
         {% endfor %}
     {% endif %}
