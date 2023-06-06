@@ -25,7 +25,7 @@ class UserPosts(generic.ListView):
 
     def get_queryset(self):
         try:
-            self.post.user = User.objects.prefetch_related('posts').get(username__iexact=self.kwargs.get('username'))
+            self.post_user = User.objects.prefetch_related('posts').get(username__iexact=self.kwargs.get('username'))
         except User.DoesNotExist:
             raise Http404
         else:
@@ -44,6 +44,7 @@ class PostDetail(SelectRelatedMixin, generic.DetailView):
     def get_queryset(self):
         query_set = super().get_queryset()
         return query_set.filter(user__username__iexact=self.kwargs.get('username'))
+
 
 
 class CreatePost(LoginRequiredMixin, SelectRelatedMixin, generic.CreateView):

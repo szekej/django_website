@@ -7,9 +7,11 @@
     <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="better but still needs some debugging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/groups/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/user_post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/user_post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685895416631</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="better but still needs some debugging">
+      <created>1685987650936</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685987650936</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
