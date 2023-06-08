@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="better but still needs some debugging">
+    <list default="true" id="1846b836-d759-40c5-a989-4e82162bc6c5" name="Changes" comment="doing great :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/groups/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/groups/templates/groups/group_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/posts/templates/posts/user_post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/templates/posts/user_post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplesocial/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplesocial/posts/views.py" afterDir="false" />
     </list>
@@ -34,6 +32,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2c31e2a0-bd5d-4437-aedb-cd11d5110042" />
+        <option name="url" value="https://github.com/szekej/django_website.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -199,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685987650936</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="doing great :)">
+      <created>1686079691654</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686079691655</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +234,7 @@
     <MESSAGE value="additional groups views to join/leave group" />
     <MESSAGE value="fixes after debugging" />
     <MESSAGE value="better but still needs some debugging" />
-    <option name="LAST_COMMIT_MESSAGE" value="better but still needs some debugging" />
+    <MESSAGE value="doing great :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing great :)" />
   </component>
 </project>
